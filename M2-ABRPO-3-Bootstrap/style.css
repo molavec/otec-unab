@@ -59,22 +59,24 @@ h2 {
     max-width: 50%;
 }
 
+@media(max-width: 768px) {
+    .somos_cachu img {
+        max-width: 100%;
+    }   
+}
 .products {
-    display: flex;
-    flex-direction: column;
     text-align: center; 
     /* background-color: rgb(223, 149, 53);     */
-    height: 310px;
-    padding: 100px;
+    padding: 10%;
 }
 .gallery {
     display: flex;
     justify-content: space-between;
 }
 
-.gallery  img {
+/* .gallery  img {
     max-width: 20%;
-}
+} */
 
 .formulario {
     padding: 100px 100px ;
@@ -83,6 +85,16 @@ h2 {
 
 .formulario  div {
     margin: 20px;
+}
+.formtitle {
+    text-align: center;
+    border-style: solid;
+    background-color: rgb(223, 149, 53);
+    color: aliceblue;
+    
+
+    
+
 }
 
 @media(max-width: 768px){
