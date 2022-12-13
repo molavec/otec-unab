@@ -21,6 +21,15 @@ h2 {
     margin: 16px;
 }
 
+@media(max-width: 768px){
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}
+
 .header{
     padding: 50px 10px 50px 10px ;
     background-color: rgb(223, 149, 53);
@@ -68,8 +77,24 @@ h2 {
 }
 
 .formulario {
-    padding: 100px 10px ;
-    text-align: center;
+    padding: 100px 100px ;
+    text-align: left;
+}
+
+.formulario  div {
+    margin: 20px;
+}
+
+@media(max-width: 768px){
+    .formulario {
+        max-width: 90%;
+        padding: 5%;
+    }
+
+    .formulario input, 
+    .formulario textarea {
+        max-width: 80%;
+    }
 }
 
 .footer{
